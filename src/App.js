@@ -23,16 +23,9 @@ class App extends Component {
     })
   }
 
-  // TODO
-  // #1 write state model & initiatilize state for form
-  // #2 write the structure of the form
-  // #3 write handle change handler
-  // #4 write handleSubmit function & pass on handle submit to Form
-  // #5 write submit button that calls handleSubmit
-
 
   handleSubmit = (character) => {
-    //take state from form and add to app state
+    //take state form and add to app state
     const {characters} = this.state
 
     this.setState(
